@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>AddyServlet</servlet-name>
+        <servlet-class>adarshvaju.AddyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SqrServlet</servlet-name>
+        <servlet-class>adarshvaju.SqrServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddyServlet</servlet-name>
+        <url-pattern>/addkarde</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SqrServlet</servlet-name>
+        <url-pattern>/sq_n</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
