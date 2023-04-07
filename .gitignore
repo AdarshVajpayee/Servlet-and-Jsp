@@ -4,5 +4,5 @@
 /ServletConfig&Context/nbproject/private/
 /ServletConfig&Context/build/
 /ServletConfig&Context/dist/
-/nbproject
-*.class
+/ServletConfig&Context/nbproject/
+
