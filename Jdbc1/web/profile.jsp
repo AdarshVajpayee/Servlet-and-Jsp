@@ -17,7 +17,7 @@
         <%
            String url = "jdbc:mysql://localhost:4307/adarsh";
            String username = "root";
-           String password = "Adarsh12vaj3";
+           String password = "Your password";
            
 
            String sql = "select * from students";
