@@ -17,7 +17,7 @@
     </head>
     <body>
         
-        <sql:setDataSource var="db" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:4307/adarsh" user="root" password = "Adarsh12vaj3"/>
+        <sql:setDataSource var="db" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:4307/adarsh" user="root" password = "Your Password"/>
         
         <sql:update dataSource = "${db}" var = "rs">
              INSERT INTO students VALUES (6, "Naayi",85);
