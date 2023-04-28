@@ -24,7 +24,7 @@
             <br>
             go to libraries, then click on Add Jar file .
             <br>
-            <c:import url="https://github.com/AdarshVajpayee19"></c:import>
+            <%--<c:import url="https://github.com/AdarshVajpayee19"></c:import>--%>
             <c:out value="${students}"/>
     </body>
 </html>
