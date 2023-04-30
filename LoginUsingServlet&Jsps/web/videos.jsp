@@ -14,7 +14,9 @@
     <body>
         <%
             // Browser Specific Code.
-            response.setHeader("cache-control", "no-cache,no-store,must-revalidate");
+            response.setHeader("Cache-Control","no-store");
+response.setHeader("Pragma","no-cache"); 
+response.setHeader ("Expires", "0");
             if (session.getAttribute("username") == null) {
                 response.sendRedirect("login.jsp");
             }

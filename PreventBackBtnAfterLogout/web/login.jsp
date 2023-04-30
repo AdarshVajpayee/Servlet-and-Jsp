@@ -13,6 +13,13 @@
         <title>Login</title>
     </head>
 <body>
+    
+    <%
+        response.setHeader("Pragma","no-cache");
+        response.setHeader("Cache-Control","no-store");
+        response.setHeader("Expires", "0");
+        response.setDateHeader("Expires", -1);
+    %>
     <center><h3>Login</h3></center>
     <form action="Login" method="post">
   <div class="imgcontainer">
