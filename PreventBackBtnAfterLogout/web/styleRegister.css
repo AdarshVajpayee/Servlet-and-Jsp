@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Jun, 2023, 9:53:04 PM
+    Author     : vajpa
+*/
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Montserrat:wght@500&display=swap');
+
+h3{
+    font-size: 25px;
+    color:#e2af31;
+}
+
+body{
+    text-align: center;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  background-color: #f2f2f2;
+  margin-left: 25%;
+  margin-right:25%;
+  width: 50%;
+  border: 1px solid darkgrey;
+  background-clip: border-box;
+  border-radius: 2px;
+}
+
+input[type=text], input[type=email], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover {  
+  border: 1px solid #f2cb6a;
+}
+button {
+  background-color:#e2af31;
+  opacity: 0.6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.CommonDesign{
+    margin:12px 20px 20px 20px;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+p{
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+span.psw {
+     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-top: 16px;
+}
+
+span.psw a {
+  color:#0055ff;
+  text-decoration:none;
+}
+
+span.cb {
+     color:#0055ff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding-top: 16px;
+}
+
