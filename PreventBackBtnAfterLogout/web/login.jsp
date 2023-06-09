@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css"/>
-        <title>Apple | Mac</title>
+        <title>Apple SignIn</title>
         <link rel="icon" href="favicon.ico">
     </head>
 <body>
@@ -35,7 +35,7 @@
   </div>
 
   <div class="container" style="background-color:#f2f2f2">
-    <button type="button" class="cancelbtn">Cancel</button>
+      <a href="Register.jsp"><button type="button" class="Signbtn">Sign Up</button></a>
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
