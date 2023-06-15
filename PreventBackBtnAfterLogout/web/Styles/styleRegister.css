@@ -28,7 +28,7 @@ form {
   border-radius: 2px;
 }
 
-input[type=text], input[type=email], input[type=password]{
+input[type=text], input[type=email], input[type=password],input[type=phone]{
   width: 100%;
   padding: 12px 20px;
   margin: 5px 0;
@@ -36,7 +36,7 @@ input[type=text], input[type=email], input[type=password]{
   border: 1px solid grey;
   box-sizing: border-box;
 }
-input[type=text]:hover, input[type=password]:hover, input[type=email]:hover {  
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=phone]:hover  {  
   border: 1px solid #f2cb6a;
 }
 button {
@@ -92,5 +92,11 @@ span.cb {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     padding-top: 16px;
+}
+
+.formError{
+    color:red;
+    float:left;
+    font-size: 12px;
 }
 
