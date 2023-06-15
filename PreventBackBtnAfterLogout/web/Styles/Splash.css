@@ -1,0 +1,72 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15-Jun-2023, 11:58:57 pm
+    Author     : vajpa
+*/
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    position: relative;
+    left:0;
+    top:0;
+    width:1005px;
+    height:80px;
+}
+
+header h4{
+    position: absolute;
+    left:10%;
+    Bottom:1rem;
+    font-size:1.6rem;
+}
+
+
+/* Splash Screen */
+.intro{
+    position: fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    background-color: #161616;
+    transition: 1s;
+}
+
+.logo-header{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#ffffff;
+}
+
+
+.logo{
+    position:relative;
+    display:inline-block;
+    bottom:-20px;
+    opacity:0;
+}
+
+
+.logo.active{
+    bottom:0;
+    opacity:1;
+    transition:ease-in-out 0.5s;
+}
+
+.logo.fade{
+    bottom:150px;
+    opacity:0;
+    transition: ease-in-out 0.5s;
+}
+

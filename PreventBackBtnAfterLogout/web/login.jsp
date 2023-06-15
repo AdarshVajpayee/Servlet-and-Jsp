@@ -9,16 +9,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="Styles/style.css"/>
         <title>Apple SignIn</title>
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="Images/favicon.ico">
     </head>
 <body>
     <center><h3>Login</h3></center>
     <form action="Login" method="post">
   <div class="imgcontainer">
-    <!--<img src="images.png" alt="Avatar" style="width:auto" class="avatar">-->
-    <img src="apple-touch-icon.png" alt="Avatar" style="width:auto" class="avatar">
+    <img src="Images/apple-touch-icon.png" alt="Avatar" style="width:auto" class="avatar">
   </div>
 
   <div class="container">
